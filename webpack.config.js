@@ -46,7 +46,7 @@ const config = {
             jQuery: "jquery"
         }),
         new BundleAnalyzerPlugin({
-            analyzerMode: "static", // the report outputs to an HTML file in the dist folder
+            analyzerMode: "disable", // "static" the report outputs to an HTML file in the dist folder, or set to "disable"
         })
     ],
     mode: "development"
